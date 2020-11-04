@@ -1,0 +1,13 @@
+/*hot*/
+li.style1.hot::before {
+	content: url(hot-1.gif);
+}
+li.style2.hot::before {
+	content: url(hot-2.gif);
+}
+li.style3.hot::before {
+	content: url(hot-3.gif);
+}
+li.style4.hot::before {
+	content: url(hot-4.png);
+}

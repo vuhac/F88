@@ -1,0 +1,32 @@
+kind: pipeline
+name: docker build
+
+steps:
+- name: code-analysis
+  image: aosapps/drone-sonar-plugin
+  settings:
+    sonar_host:
+      - http://10.22.119.72:9000
+    sonar_token:
+      - 0004a561577dbddd02939c51312b513ff230bd13
+    level: DEBUG
+    showProfiling: true
+  event:
+    - push
+
+- name: deploy to demo
+  image: appleboy/drone-ssh
+  pull: true
+  settings:
+    host: 10.22.114.102
+    username: demo
+    port: 22
+    timeout: 120s
+    key:
+      from_secret: demo
+    script:
+      - ~/bin/update_demo.begpk2.sh
+  when:
+    branch: master
+    event:
+      - push

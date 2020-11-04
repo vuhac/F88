@@ -1,0 +1,34 @@
+# 每日營收日結報表(生成資料庫) hour 2 times
+30 12 * * * /home/deployer/cron/cron0_dailyreport_cmd.sh
+# 反水報表 hour 2 times
+40 12 * * * /home/deployer/cron/cron0_preferential_cmd.sh
+# 放射线组织奖金计算-加盟金 day
+30 12 * * * /home/deployer/cron/cron1_commission_agent.sh
+# 奖金计算-代理加盟金 day
+40 12 * * * /home/deployer/cron/cron1_radiationbonus_organization.sh
+# 放射线组织奖金计算-营业奖金 week
+40 12 * * 3 /home/deployer/cron/cron2_commission_sale_cmd.sh
+# 放射线组织奖金计算-营运利润奖金 month
+45 12 1 * * /home/deployer/cron/cron3_commission_profit_cmd.sh
+# 每日聯營股東損益計算 hour 2 times
+50 12 * * * /home/deployer/cron/agent_profitloss_calculation.sh
+# 即時稽核
+*/10 * * * * /home/deployer/cron/token_auditorial_logger.sh
+# 10分鐘即時統計
+5,15,25,35,45,55 * * * * /home/deployer/cron/10m_update.sh
+# redis push監聽程式
+*/5 * * * * /home/deployer/cron/redis_monitor.sh
+# RG 反點派彩監聽程式
+*/1 * * * * /home/deployer/cron/agent_bonus_of_rg_lottery_payout_cmd.sh
+# 定時自動取錢程式（每半小時檢查一次）
+*/30 * * * * /home/deployer/cron/auto_casino_retrieve.sh
+# 群組信刪除程式（每天一次）
+00 12 * * * /home/deployer/cron/mail_cmd.sh
+# 實時反水（暫定每小時一次）
+10 * * * * /home/deployer/cron/realtime_reward_cmd.sh
+
+# 定期壓縮log記錄並保留30天後移除
+59 23 * * * /home/deployer/cron/log_compression.sh
+
+# 定期移除tmp_dl及tmp_jsondata資料夾中超過1天的資料
+59 23 * * * /home/deployer/cron/tmpfileremover.sh

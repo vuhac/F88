@@ -1,0 +1,16 @@
+systemadmin/*
+bettingrecords/*.log
+doc/*
+test/*
+cron/*.log
+cron/shellvar
+.well-known
+.ftp*
+config.php
+bak[0-9]_*
+del[0-9]_*
+todo[0-9]_*
+!.gitignore
+.vscode/
+notusing
+test.php

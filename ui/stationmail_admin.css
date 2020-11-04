@@ -1,0 +1,16 @@
+/*
+站內信管理用 css
+*/
+
+.inbox_member_msg_p:hover {
+    background: #d0d0d0;
+    color: #000;
+}
+
+span {
+    color: #808080;
+}
+
+.inbox_member_read_msg_span {
+    float: right;
+}

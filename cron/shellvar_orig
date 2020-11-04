@@ -1,0 +1,4 @@
+BINPATH="/home/testgpk2demo/web/begpk2/"
+CRONPATH="/home/testgpk2demo/web/begpk2/cron/"
+LOGPATH="/home/testgpk2demo/web/begpk2/cron/log/"
+PHP7="/usr/bin/php"

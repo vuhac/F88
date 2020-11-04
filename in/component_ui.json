@@ -1,0 +1,268 @@
+{
+  "home": {
+    "aside-promote": {
+      "left": [
+        {
+          "title": "",
+          "id": "aside-promoteleft",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ],
+      "right": [
+        {
+          "title": "", 
+          "id": "aside-promoteright",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ]
+    },
+    "float-promote": {
+      "lb": [
+        {
+          "id": "float-promotelb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "lt": [
+        {
+          "id": "float-promotelt",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rb": [
+        {
+          "id": "float-promoterb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rt": [
+        {
+          "id": "float-promotert",
+          "switch": 0,
+          "content": ""
+        }
+      ]
+    },
+    "popup-promote": [
+      {
+        "title": "",
+        "style": "style1",
+        "img": "",
+        "switch": 0
+      }
+    ]
+  },
+  "mobile": {
+    "mobile_morelink": []
+  },
+  "static": {
+    "aside-promote": {
+      "left": [
+        {
+          "title": "",
+          "id": "aside-promoteleft",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ],
+      "right": [
+        {
+          "title": "",
+          "id": "aside-promoteright",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ]
+    },
+    "float-promote": {
+      "lb": [
+        {
+          "id": "float-promotelb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "lt": [
+        {
+          "id": "float-promotelt",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rb": [
+        {
+          "id": "float-promoterb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rt": [
+        {
+          "id": "float-promotert",
+          "switch": 0,
+          "content": ""
+        }
+      ]
+    },
+    "popup-promote": [
+      {
+        "title": "",
+        "style": "style1",
+        "img": "",
+        "switch": 0
+      }
+    ]
+  },
+  "gamelobby": {
+    "aside-promote": {
+      "left": [
+        {
+          "title": "",
+          "id": "aside-promoteleft",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ],
+      "right": [
+        {
+          "title": "",
+          "id": "aside-promoteright",
+          "type": "float",
+          "style": "style1",
+          "switch": 0,
+          "content": [],
+          "closeable": 1
+        }
+      ]
+    },
+    "float-promote": {
+      "lb": [
+        {
+          "id": "float-promotelb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "lt": [
+        {
+          "id": "float-promotelt",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rb": [
+        {
+          "id": "float-promoterb",
+          "switch": 0,
+          "content": ""
+        }
+      ],
+      "rt": [
+        {
+          "id": "float-promotert",
+          "switch": 0,
+          "content": ""
+        }
+      ]
+    },
+    "popup-promote": [
+      {
+        "title": "",
+        "style": "style1",
+        "img": "",
+        "switch": 0
+      }
+    ]
+  },
+  "short_url": [],
+  "custom_menu": [],
+  "footer_menu": {
+    "footer_link": [],
+    "footer_casino_logo": [],
+    "footer_payment_logo": []
+  },
+  "highlight_menu": [],
+  "index_carousel": {
+    "mobile": {
+      "item": []
+    },
+    "desktop": {
+      "item": []
+    }
+  },
+  "index_gamelobby": {},
+  "lobby_carousel": {
+    "live": [],
+    "lottery": [],
+    "sport": [],
+    "fishing": [],
+    "game": []
+  },
+  "deposit": {
+    "sort":[]
+  },
+  "template_themes": {
+    "switch": 0,
+    "main_color": "c000",
+    "sub_color": "c000",
+    "font_color": "cfff"
+  },
+  "template_themes_m": {
+    "switch": 0,
+    "main_color": "c000",
+    "sub_color": "c000",
+    "font_color": "cfff"
+  },
+  "copy": {
+    "aboutus": {
+      "zh-cn": ""
+    },
+    "partner": {
+      "zh-cn": ""
+    },
+    "privacy": {
+      "zh-cn": ""
+    },
+    "contactus": {
+      "zh-cn": ""
+    },
+    "howtodeposit": {
+      "zh-cn": ""
+    },
+    "howtowithdraw": {
+      "zh-cn": ""
+    },
+    "agent_instruction": {
+      "zh-cn": ""
+    },
+    "member": {
+      "zh-cn": ""
+    },
+    "companypay": {
+      "zh-cn": ""
+    },
+    "fastpay": {
+      "zh-cn": ""
+    }
+  }
+}

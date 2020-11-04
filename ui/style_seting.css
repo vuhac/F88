@@ -1,0 +1,79 @@
+/*設定data table的每一列高度，
+transaction_query，member*/
+/*table.dataTable.compact tbody th, table.dataTable.compact tbody td{
+        height: 40px;
+        vertical-align:middle;
+     }*/
+
+table.dataTable.compact tbody th, table.dataTable.compact tbody td{
+        height: 40px;
+        vertical-align:middle;
+     }
+
+/*transaction_query.php*/
+.transaction_checkbox_inline_css input[type=checkbox]{
+    margin-left: -13px;
+}
+.marpadmd4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.transaction_checkbox_inline_css{
+    padding: 0px 0px 7px 10px; 
+}
+
+.modal-body-align td {
+    text-align: left;
+}
+/*.modal-body-align th, .modal-body-align td{
+    /*height: 1em !important;*/
+}*/
+.transaction_cat_css{
+    padding: 0px 0px 0px 10px;
+}
+
+
+/*-----------------------------------------------*/
+
+/*member_betlog.view*/
+.betlog_h6{
+    background: rgba(224,228,233,.5);
+    color: #26282a;
+    padding: 10px;
+    font-size: 15px;
+   /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;*/
+    width: 100%;
+    margin:0px;
+
+}
+
+
+
+/*.state-icon {
+    left: -5px;
+}*/
+/*.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}*/
+
+/* DEMO ONLY - REMOVES UNWANTED MARGIN */
+/*.well .list-group {
+    margin-bottom: 0px;
+   }*/
+/* .list-inlineul{
+    width: 100%;
+}
+
+.list-inline-item-ul{
+    display: inline-block;
+    margin:0px 0px 0px 0px;
+    width: 33.3%;
+    text-align:center;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 10px;
+}
+ */
+
